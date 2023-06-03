@@ -2,4 +2,4 @@ fastapi
 uvicorn[standard]
 numpy
 tensorflow==2.12.0
-opencv-python
+opencv-python-headless
