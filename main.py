@@ -17,7 +17,7 @@ def predict(img_input):
     idx = color_converted.argmax()
     return labels[idx]
 
-result = predict(r"C:\Users\Asus\Documents\Luswis Files\Product-Capstone\deploy\image.jpg")
+result = predict('/app/image.jpg')
 print(result)
 
 #FASTAPI
@@ -25,7 +25,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    result = predict(r"C:\Users\Asus\Documents\Luswis Files\Product-Capstone\deploy\image.jpg")
+    result = predict('/app/image.jpg')
     print(result)
     return result
 
