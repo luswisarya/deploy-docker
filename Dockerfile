@@ -6,6 +6,8 @@ COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
+COPY image.jpg
+
 COPY YangJamurJamuraja_v2.h5 YangJamurJamuraja_v2.h5
 
 COPY main.py main.py
