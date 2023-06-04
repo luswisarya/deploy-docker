@@ -5,7 +5,7 @@ from typing import Union
 from fastapi import FastAPI
 import uvicorn
 
-#Define Function
+#define function
 labels = ['Jamur Enoki', 'Jamur Shimeji Coklat', 'Jamur Shimeji Putih', 'Tiram']
 
 def predict(img_input):
@@ -20,7 +20,7 @@ def predict(img_input):
 result = predict('/app/image.jpg')
 print(result)
 
-#FASTAPI
+#fastapi
 app = FastAPI()
 
 @app.get("/")
