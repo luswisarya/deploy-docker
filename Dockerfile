@@ -6,7 +6,7 @@ COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
-COPY YangJamurJamuraja_v2.h5 YangJamurJamuraja_v2.h5
+COPY mvp_model.h5 mvp_model.h5
 
 COPY main.py main.py
 
