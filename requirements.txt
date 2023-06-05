@@ -1,4 +1,4 @@
-tensorflow-cpu
+tensorflow==2.10.0
 fastapi
 Pillow
 starlette
@@ -6,4 +6,3 @@ gunicorn
 uvicorn
 numpy
 python-multipart
-opencv-python-headless
